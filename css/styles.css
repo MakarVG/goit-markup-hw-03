@@ -62,8 +62,12 @@ img {
     justify-content: inline;
     background: var(--WHITE, #FFF); 
     flex-shrink: 0;
-    border-bottom: 1px solid rgba(231, 233, 252, 1);
+    border-bottom: 1px solid #e7e9fc;
     padding: 24px 0;
+}
+.address_list{
+    display: flex;
+    gap: 40px;
 }
 .container {
     display: block;
@@ -77,6 +81,7 @@ img {
 .header_nav{
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 .contacts{
         list-style: none;
