@@ -57,7 +57,7 @@ img {
     height: auto;
 }
 /* section header */
-  .header{
+  .head{
     display: flex;
     justify-content: inline;
     background: var(--WHITE, #FFF); 
@@ -105,7 +105,7 @@ img {
     padding: 24px 0;
 
 }
-.header_nav_menu{
+.header_nav_menu_ul{
     list-style: none;
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 16px;
@@ -152,13 +152,14 @@ img {
         text-align: center;
     
         /* Header 1 */
-        font-family: Roboto;
+        font-family: "Roboto",sans-serif;
         font-size: 56px;
         font-style: normal;
         font-weight: 700;
         line-height: 1.07;
         /* 107.143% */
         letter-spacing: 1.12px;
+        max-width: 496px;
 }
 .slider_order_button{
     background: var(--IRIS, #4D5AE5);
@@ -183,8 +184,12 @@ img {
 .slider_order_button:hover, .slider_order_button:focus{
     background-color: #404BBF;
 }
+
 .advantages_block, .team_block, .portfolio_block{
     padding: 120px 0;
+}
+.advantages_subheader{
+    margin-bottom: 8px;
 }
 .team_block{
     background-color: #F4F4FD;
@@ -245,6 +250,9 @@ img {
     text-transform: capitalize;
     color: #2E2F42;
     padding: 120px 0;
+}
+.portfolio_block_header{
+    margin-bottom: 72px;    
 }
 .portfolio_header{
     font-weight: 500;
